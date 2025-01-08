@@ -39,6 +39,18 @@
   border-radius: 5px;
   margin-left: 30px;
 }
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
 
 /* Header Styles */
 .header-bg{
@@ -101,4 +113,43 @@ nav li a{
 .banner{
   display: flex;
   justify-content: space-between;
+}
+
+/* main style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about styles */
+.about{
+  background-color: #FFF8F3;
+  border: none;
+  border-radius: 10px;
+  margin: 130px auto;
+  text-align: center;
+  padding: 130px 156px;
+}
+.about-section-middle-color{
+  background-color: white;
+  border: 1px solid black;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.item-title{
+  font-size: 20px;
+  color: #757575;
+}
+.item-description{
+  font-size: 20px;
+  font-weight: bold;
+  color:#474747;
+}
+/* What I do styles */
+.what-i-do-section{
+  text-align: center;
+  margin: 130px 0 30px 0;
+  padding: 0 115px;
 }
